@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+td, th{
+    border: 1px solid gray;
+    min-width: 80px;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+thead tr{
+    background-color: rgb(22,21,21);
+    color:beige
+}
+
+@media screen and (max-width:500px){
+    article{
+        overflow-x: scroll;
+    }
+
+    
+}

@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.alja{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    min-width: 80px;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+thead tr{
+    background-color:rgba(154, 154, 221, 0.884);
+    color:beige
+}
+.teteje{
+    border-top: 1px solid black;
+    min-width: 80%;
+}
+@media screen and (max-width:500px){
+    article{
+        overflow-x: scroll;
+    }
+
+    
+}
